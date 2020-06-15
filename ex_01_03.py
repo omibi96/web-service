@@ -2,7 +2,7 @@ import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
 
-api_key = 'https://maps.googleapis.com/maps/api/js?AIzaSyDi3XT1iRWCgQb0N_xxNS0uzFcr7wjrn_g'
+api_key = False
 
 if api_key is False:
     api_key = 42
